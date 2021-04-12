@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="289.0" prefWidth="455.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MakeOrderController">
+   <children>
+      <AnchorPane prefHeight="289.0" prefWidth="464.0">
+         <children>
+            <Button layoutX="184.0" layoutY="239.0" mnemonicParsing="false" onAction="#ok" prefHeight="27.0" prefWidth="95.0" text="OK" />
+            <TableView layoutX="14.0" layoutY="29.0" prefHeight="200.0" prefWidth="442.0">
+              <columns>
+                <TableColumn prefWidth="111.0" text="Nume" />
+                <TableColumn prefWidth="112.0" text="Pret" />
+                  <TableColumn prefWidth="109.0" text="Companie" />
+                  <TableColumn prefWidth="109.0" text="Eficacitate" />
+              </columns>
+            </TableView>
+            <Label layoutX="14.0" layoutY="6.0" text="VA RUGAM SELECTATI UN MEDICAMENT:" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

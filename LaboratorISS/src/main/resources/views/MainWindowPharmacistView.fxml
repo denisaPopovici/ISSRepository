@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="304.0" prefWidth="243.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainWindowControllerPharmacist">
+    <AnchorPane prefHeight="304.0" prefWidth="248.0">
+      <children>
+         <Button layoutX="43.0" layoutY="82.0" mnemonicParsing="false" onAction="#vizualizeazaComenzi" text="VIZUALIZEAZA COMENZI" />
+         <Button layoutX="43.0" layoutY="166.0" mnemonicParsing="false" onAction="#vizualizeazaStoc" prefHeight="27.0" prefWidth="163.0" text="VIZUALIZEAZA STOC" />
+      </children></AnchorPane>
+
+</AnchorPane>
